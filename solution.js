@@ -29,3 +29,5 @@ const D = [2, 5, 7, 2];
 console.log("Minimum number of cars is: " + OptimiseCarUsage(P, S));
 console.log("Minimum number of cars is: " + OptimiseCarUsage(A, B));
 console.log("Minimum number of cars is: " + OptimiseCarUsage(C, D));
+
+module.exports = OptimiseCarUsage;
